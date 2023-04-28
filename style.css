@@ -1,0 +1,51 @@
+/* Write some CSS below */
+h1 {
+	color:  #5F9EA0;
+}
+body {
+	color: rgb(30, 30, 30);
+	background-color: rgb(245, 245, 245);
+	font-family: 'Space Grotesk', sans-serif;
+	font-family: 'Space Mono', monospace;
+}
+a {
+	background-color: #E9967A;
+	text-decoration: none;
+}
+.banner {
+	text-align: center;
+	background-image: url(images/background.jpg);
+	background-size: cover;
+	padding: 100px 0;
+}
+.white {
+	color: white;
+}
+.button {
+	padding: 10px 15px;
+	border-radius: 8px;
+}
+.card {
+	border-radius: 6px;
+	box-shadow: 4px 4px 10px rgba(0,0,0,0.2);
+	padding: 16px;
+}
+.cards {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 16px;
+}
+.card-image {
+	width: 100%;
+}
+.main-section {
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+@media screen and (max-width: 767px) {
+	.cards {
+		grid-template-columns: 1fr;
+	}
+}
+
